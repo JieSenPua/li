@@ -55,7 +55,7 @@ var g = svg.append("g")
          .attr("height", function(d) { return height - yScale(d.value); });
     });
 
-    var svg2 = d3.select("svg2"),
+    var svg2 = d3.select("#svg2"),
             margin = 200,
             width = svg.attr("width") - margin,
             height = svg.attr("height") - margin
